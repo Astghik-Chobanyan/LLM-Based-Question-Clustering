@@ -1,0 +1,6 @@
+Given the following list of user intents, group them into broader categories.
+
+Intents to categorize:
+{intent_list}
+
+Return your categorization in the specified format.

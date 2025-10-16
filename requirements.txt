@@ -1,0 +1,20 @@
+# Core dependencies
+pandas>=2.2.3
+numpy>=2.3.3
+scikit-learn>=1.7.2
+tqdm>=4.67.1
+
+# LLM and AI frameworks
+langchain-ollama>=0.3.10
+langchain-openai>=0.3.35
+langchain-core>=0.3.79
+llama-index-core>=0.14.5
+pydantic>=2.12.2
+
+# Visualization
+matplotlib>=3.10.7
+seaborn>=0.13.2
+
+# Utilities
+python-dotenv>=1.1.1
+loguru>=0.7.3

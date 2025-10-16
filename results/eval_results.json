@@ -1,0 +1,541 @@
+{
+  "total_clusters": 18,
+  "total_questions": 26872,
+  "cluster_details": [
+    {
+      "cluster_label": "account management",
+      "cluster_description": "Account creation, updates, type/category changes, password reset and account cancellation/deletion.",
+      "total_questions": 5910,
+      "intent_count": 946,
+      "dominant_category": "ACCOUNT",
+      "dominant_count": 5768,
+      "purity_percentage": 97.6,
+      "purity_level": "high",
+      "category_count": 7,
+      "category_distribution": {
+        "ACCOUNT": {
+          "count": 5768,
+          "percentage": 97.6
+        },
+        "CANCEL": {
+          "count": 115,
+          "percentage": 1.95
+        },
+        "SUBSCRIPTION": {
+          "count": 13,
+          "percentage": 0.22
+        },
+        "PAYMENT": {
+          "count": 7,
+          "percentage": 0.12
+        },
+        "SHIPPING": {
+          "count": 4,
+          "percentage": 0.07
+        },
+        "ORDER": {
+          "count": 2,
+          "percentage": 0.03
+        },
+        "INVOICE": {
+          "count": 1,
+          "percentage": 0.02
+        }
+      },
+      "entropy_score": -0.967
+    },
+    {
+      "cluster_label": "address updates",
+      "cluster_description": "Modify shipping or account address details.",
+      "total_questions": 1985,
+      "intent_count": 200,
+      "dominant_category": "SHIPPING",
+      "dominant_count": 1963,
+      "purity_percentage": 98.89,
+      "purity_level": "high",
+      "category_count": 3,
+      "category_distribution": {
+        "SHIPPING": {
+          "count": 1963,
+          "percentage": 98.89
+        },
+        "DELIVERY": {
+          "count": 16,
+          "percentage": 0.81
+        },
+        "FEEDBACK": {
+          "count": 6,
+          "percentage": 0.3
+        }
+      },
+      "entropy_score": -0.984
+    },
+    {
+      "cluster_label": "attribution",
+      "cluster_description": "Identify the customer acquisition source or campaign attribution for a user or account.",
+      "total_questions": 2,
+      "intent_count": 2,
+      "dominant_category": "ORDER",
+      "dominant_count": 2,
+      "purity_percentage": 100.0,
+      "purity_level": "high",
+      "category_count": 1,
+      "category_distribution": {
+        "ORDER": {
+          "count": 2,
+          "percentage": 100.0
+        }
+      },
+      "entropy_score": -1.0
+    },
+    {
+      "cluster_label": "content & articles",
+      "cluster_description": "Requests to obtain or understand article/content requirements and related content assistance.",
+      "total_questions": 25,
+      "intent_count": 25,
+      "dominant_category": "ORDER",
+      "dominant_count": 14,
+      "purity_percentage": 56.0,
+      "purity_level": "low",
+      "category_count": 4,
+      "category_distribution": {
+        "ORDER": {
+          "count": 14,
+          "percentage": 56.0
+        },
+        "FEEDBACK": {
+          "count": 9,
+          "percentage": 36.0
+        },
+        "PAYMENT": {
+          "count": 1,
+          "percentage": 4.0
+        },
+        "CONTACT": {
+          "count": 1,
+          "percentage": 4.0
+        }
+      },
+      "entropy_score": -0.651
+    },
+    {
+      "cluster_label": "data & privacy",
+      "cluster_description": "Requests and actions related to consumer data access, reclamation, and privacy rights.",
+      "total_questions": 16,
+      "intent_count": 16,
+      "dominant_category": "FEEDBACK",
+      "dominant_count": 9,
+      "purity_percentage": 56.25,
+      "purity_level": "low",
+      "category_count": 3,
+      "category_distribution": {
+        "FEEDBACK": {
+          "count": 9,
+          "percentage": 56.25
+        },
+        "ACCOUNT": {
+          "count": 6,
+          "percentage": 37.5
+        },
+        "ORDER": {
+          "count": 1,
+          "percentage": 6.25
+        }
+      },
+      "entropy_score": -0.667
+    },
+    {
+      "cluster_label": "feedback & complaints",
+      "cluster_description": "User feedback submissions and formal complaints.",
+      "total_questions": 1570,
+      "intent_count": 173,
+      "dominant_category": "FEEDBACK",
+      "dominant_count": 1432,
+      "purity_percentage": 91.21,
+      "purity_level": "high",
+      "category_count": 4,
+      "category_distribution": {
+        "FEEDBACK": {
+          "count": 1432,
+          "percentage": 91.21
+        },
+        "ACCOUNT": {
+          "count": 136,
+          "percentage": 8.66
+        },
+        "CONTACT": {
+          "count": 1,
+          "percentage": 0.06
+        },
+        "ORDER": {
+          "count": 1,
+          "percentage": 0.06
+        }
+      },
+      "entropy_score": -0.897
+    },
+    {
+      "cluster_label": "financial assistance",
+      "cluster_description": "Requests for direct monetary aid, grants, or other financial support from the organization.",
+      "total_questions": 1,
+      "intent_count": 1,
+      "dominant_category": "ORDER",
+      "dominant_count": 1,
+      "purity_percentage": 100.0,
+      "purity_level": "high",
+      "category_count": 1,
+      "category_distribution": {
+        "ORDER": {
+          "count": 1,
+          "percentage": 100.0
+        }
+      },
+      "entropy_score": -1.0
+    },
+    {
+      "cluster_label": "help & contact",
+      "cluster_description": "Contacting support and checking support availability/hours.",
+      "total_questions": 2198,
+      "intent_count": 357,
+      "dominant_category": "CONTACT",
+      "dominant_count": 1990,
+      "purity_percentage": 90.54,
+      "purity_level": "high",
+      "category_count": 6,
+      "category_distribution": {
+        "CONTACT": {
+          "count": 1990,
+          "percentage": 90.54
+        },
+        "ORDER": {
+          "count": 127,
+          "percentage": 5.78
+        },
+        "ACCOUNT": {
+          "count": 50,
+          "percentage": 2.27
+        },
+        "FEEDBACK": {
+          "count": 27,
+          "percentage": 1.23
+        },
+        "INVOICE": {
+          "count": 3,
+          "percentage": 0.14
+        },
+        "SHIPPING": {
+          "count": 1,
+          "percentage": 0.05
+        }
+      },
+      "entropy_score": -0.88
+    },
+    {
+      "cluster_label": "invoices & billing",
+      "cluster_description": "Accessing, downloading or retrieving invoices and bills.",
+      "total_questions": 2280,
+      "intent_count": 319,
+      "dominant_category": "INVOICE",
+      "dominant_count": 1991,
+      "purity_percentage": 87.32,
+      "purity_level": "high",
+      "category_count": 3,
+      "category_distribution": {
+        "INVOICE": {
+          "count": 1991,
+          "percentage": 87.32
+        },
+        "CANCEL": {
+          "count": 288,
+          "percentage": 12.63
+        },
+        "PAYMENT": {
+          "count": 1,
+          "percentage": 0.04
+        }
+      },
+      "entropy_score": -0.861
+    },
+    {
+      "cluster_label": "legal & compliance",
+      "cluster_description": "Requests and actions to pursue legal proceedings or compliance-related matters.",
+      "total_questions": 12,
+      "intent_count": 12,
+      "dominant_category": "CANCEL",
+      "dominant_count": 7,
+      "purity_percentage": 58.33,
+      "purity_level": "low",
+      "category_count": 3,
+      "category_distribution": {
+        "CANCEL": {
+          "count": 7,
+          "percentage": 58.33
+        },
+        "FEEDBACK": {
+          "count": 3,
+          "percentage": 25.0
+        },
+        "ACCOUNT": {
+          "count": 2,
+          "percentage": 16.67
+        }
+      },
+      "entropy_score": -0.639
+    },
+    {
+      "cluster_label": "order management",
+      "cluster_description": "Create, cancel, check and track orders, including ETA and shipment status.",
+      "total_questions": 4291,
+      "intent_count": 351,
+      "dominant_category": "ORDER",
+      "dominant_count": 3545,
+      "purity_percentage": 82.61,
+      "purity_level": "high",
+      "category_count": 5,
+      "category_distribution": {
+        "ORDER": {
+          "count": 3545,
+          "percentage": 82.61
+        },
+        "DELIVERY": {
+          "count": 651,
+          "percentage": 15.17
+        },
+        "CANCEL": {
+          "count": 89,
+          "percentage": 2.07
+        },
+        "ACCOUNT": {
+          "count": 5,
+          "percentage": 0.12
+        },
+        "REFUND": {
+          "count": 1,
+          "percentage": 0.02
+        }
+      },
+      "entropy_score": -0.813
+    },
+    {
+      "cluster_label": "payments",
+      "cluster_description": "Payment methods, options and resolving payment issues.",
+      "total_questions": 2259,
+      "intent_count": 190,
+      "dominant_category": "PAYMENT",
+      "dominant_count": 1989,
+      "purity_percentage": 88.05,
+      "purity_level": "high",
+      "category_count": 4,
+      "category_distribution": {
+        "PAYMENT": {
+          "count": 1989,
+          "percentage": 88.05
+        },
+        "CANCEL": {
+          "count": 222,
+          "percentage": 9.83
+        },
+        "ORDER": {
+          "count": 46,
+          "percentage": 2.04
+        },
+        "INVOICE": {
+          "count": 2,
+          "percentage": 0.09
+        }
+      },
+      "entropy_score": -0.86
+    },
+    {
+      "cluster_label": "product discovery",
+      "cluster_description": "Finding and browsing products in the catalog and exploring product information.",
+      "total_questions": 74,
+      "intent_count": 69,
+      "dominant_category": "ORDER",
+      "dominant_count": 65,
+      "purity_percentage": 87.84,
+      "purity_level": "high",
+      "category_count": 6,
+      "category_distribution": {
+        "ORDER": {
+          "count": 65,
+          "percentage": 87.84
+        },
+        "ACCOUNT": {
+          "count": 3,
+          "percentage": 4.05
+        },
+        "CONTACT": {
+          "count": 2,
+          "percentage": 2.7
+        },
+        "FEEDBACK": {
+          "count": 2,
+          "percentage": 2.7
+        },
+        "INVOICE": {
+          "count": 1,
+          "percentage": 1.35
+        },
+        "DELIVERY": {
+          "count": 1,
+          "percentage": 1.35
+        }
+      },
+      "entropy_score": -0.843
+    },
+    {
+      "cluster_label": "refunds & compensation",
+      "cluster_description": "Refunds, reimbursements, claims, eligibility, amounts, status and processing.",
+      "total_questions": 3494,
+      "intent_count": 357,
+      "dominant_category": "REFUND",
+      "dominant_count": 2946,
+      "purity_percentage": 84.32,
+      "purity_level": "high",
+      "category_count": 6,
+      "category_distribution": {
+        "REFUND": {
+          "count": 2946,
+          "percentage": 84.32
+        },
+        "FEEDBACK": {
+          "count": 505,
+          "percentage": 14.45
+        },
+        "CANCEL": {
+          "count": 28,
+          "percentage": 0.8
+        },
+        "ORDER": {
+          "count": 11,
+          "percentage": 0.31
+        },
+        "ACCOUNT": {
+          "count": 3,
+          "percentage": 0.09
+        },
+        "INVOICE": {
+          "count": 1,
+          "percentage": 0.03
+        }
+      },
+      "entropy_score": -0.83
+    },
+    {
+      "cluster_label": "rewards",
+      "cluster_description": "Earning, redeeming or inquiries about promotional items, points, or loyalty rewards.",
+      "total_questions": 172,
+      "intent_count": 47,
+      "dominant_category": "ORDER",
+      "dominant_count": 127,
+      "purity_percentage": 73.84,
+      "purity_level": "moderate",
+      "category_count": 2,
+      "category_distribution": {
+        "ORDER": {
+          "count": 127,
+          "percentage": 73.84
+        },
+        "REFUND": {
+          "count": 45,
+          "percentage": 26.16
+        }
+      },
+      "entropy_score": -0.768
+    },
+    {
+      "cluster_label": "shipping & delivery",
+      "cluster_description": "Delivery-related information such as availability, methods and delivery times.",
+      "total_questions": 1338,
+      "intent_count": 124,
+      "dominant_category": "DELIVERY",
+      "dominant_count": 1326,
+      "purity_percentage": 99.1,
+      "purity_level": "high",
+      "category_count": 4,
+      "category_distribution": {
+        "DELIVERY": {
+          "count": 1326,
+          "percentage": 99.1
+        },
+        "CONTACT": {
+          "count": 5,
+          "percentage": 0.37
+        },
+        "ORDER": {
+          "count": 5,
+          "percentage": 0.37
+        },
+        "SHIPPING": {
+          "count": 2,
+          "percentage": 0.15
+        }
+      },
+      "entropy_score": -0.987
+    },
+    {
+      "cluster_label": "store locations",
+      "cluster_description": "Find physical retail/shopping store locations and related information (addresses, hours, etc.).",
+      "total_questions": 48,
+      "intent_count": 13,
+      "dominant_category": "ORDER",
+      "dominant_count": 39,
+      "purity_percentage": 81.25,
+      "purity_level": "high",
+      "category_count": 3,
+      "category_distribution": {
+        "ORDER": {
+          "count": 39,
+          "percentage": 81.25
+        },
+        "ACCOUNT": {
+          "count": 5,
+          "percentage": 10.42
+        },
+        "FEEDBACK": {
+          "count": 4,
+          "percentage": 8.33
+        }
+      },
+      "entropy_score": -0.79
+    },
+    {
+      "cluster_label": "subscriptions",
+      "cluster_description": "Manage newsletter and service subscriptions (subscribe, unsubscribe, cancel).",
+      "total_questions": 1195,
+      "intent_count": 103,
+      "dominant_category": "SUBSCRIPTION",
+      "dominant_count": 986,
+      "purity_percentage": 82.51,
+      "purity_level": "high",
+      "category_count": 4,
+      "category_distribution": {
+        "SUBSCRIPTION": {
+          "count": 986,
+          "percentage": 82.51
+        },
+        "CANCEL": {
+          "count": 199,
+          "percentage": 16.65
+        },
+        "ACCOUNT": {
+          "count": 8,
+          "percentage": 0.67
+        },
+        "ORDER": {
+          "count": 2,
+          "percentage": 0.17
+        }
+      },
+      "entropy_score": -0.818
+    }
+  ],
+  "overall_stats": {
+    "avg_purity": 84.2,
+    "avg_entropy": 0,
+    "highly_pure_clusters": 14,
+    "moderately_pure_clusters": 1,
+    "mixed_clusters": 3
+  }
+}

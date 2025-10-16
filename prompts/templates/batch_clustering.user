@@ -1,0 +1,12 @@
+Below is the current set of clusters and their descriptions:
+
+{existing_clusters}
+
+Now, here are new user intents to categorize:
+
+{new_intent_list}
+
+Instructions:
+- Assign each intent to exactly one existing cluster if possible.
+- If an intent clearly does not fit any existing cluster, create exactly one new cluster for it.
+- Apply the tie-breakers for ambiguous cases.

@@ -1,0 +1,7 @@
+Analyze the following customer support question and extract the primary intent.
+
+Question: "{question}"
+
+Provide ONLY the intent in a few words (maximum 2-4 words). Do not provide explanations or additional text.
+
+Intent:

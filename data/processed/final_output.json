@@ -1,0 +1,92 @@
+[
+    {
+      "name": "account management",
+      "description": "Account creation, updates, type/category changes, password reset and account cancellation/deletion.",
+      "count": 5910
+    },
+    {
+      "name": "address updates",
+      "description": "Modify shipping or account address details.",
+      "count": 1985
+    },
+    {
+      "name": "attribution",
+      "description": "Identify the customer acquisition source or campaign attribution for a user or account.",
+      "count": 2
+    },
+    {
+      "name": "content & articles",
+      "description": "Requests to obtain or understand article/content requirements and related content assistance.",
+      "count": 25
+    },
+    {
+      "name": "data & privacy",
+      "description": "Requests and actions related to consumer data access, reclamation, and privacy rights.",
+      "count": 16
+    },
+    {
+      "name": "feedback & complaints",
+      "description": "User feedback submissions and formal complaints.",
+      "count": 1570
+    },
+    {
+      "name": "financial assistance",
+      "description": "Requests for direct monetary aid, grants, or other financial support from the organization.",
+      "count": 1
+    },
+    {
+      "name": "help & contact",
+      "description": "Contacting support and checking support availability/hours.",
+      "count": 2198
+    },
+    {
+      "name": "invoices & billing",
+      "description": "Accessing, downloading or retrieving invoices and bills.",
+      "count": 2280
+    },
+    {
+      "name": "legal & compliance",
+      "description": "Requests and actions to pursue legal proceedings or compliance-related matters.",
+      "count": 12
+    },
+    {
+      "name": "order management",
+      "description": "Create, cancel, check and track orders, including ETA and shipment status.",
+      "count": 4291
+    },
+    {
+      "name": "payments",
+      "description": "Payment methods, options and resolving payment issues.",
+      "count": 2259
+    },
+    {
+      "name": "product discovery",
+      "description": "Finding and browsing products in the catalog and exploring product information.",
+      "count": 74
+    },
+    {
+      "name": "refunds & compensation",
+      "description": "Refunds, reimbursements, claims, eligibility, amounts, status and processing.",
+      "count": 3494
+    },
+    {
+      "name": "rewards",
+      "description": "Earning, redeeming or inquiries about promotional items, points, or loyalty rewards.",
+      "count": 172
+    },
+    {
+      "name": "shipping & delivery",
+      "description": "Delivery-related information such as availability, methods and delivery times.",
+      "count": 1338
+    },
+    {
+      "name": "store locations",
+      "description": "Find physical retail/shopping store locations and related information (addresses, hours, etc.).",
+      "count": 48
+    },
+    {
+      "name": "subscriptions",
+      "description": "Manage newsletter and service subscriptions (subscribe, unsubscribe, cancel).",
+      "count": 1195
+    }
+]
